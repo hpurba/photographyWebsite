@@ -1,0 +1,143 @@
+.bg-light {
+  background-color: #D3D3D3 !important;
+  border-bottom: 4px !important;
+  border-bottom-style: dashed !important;
+  border-bottom-color: #E0FFF4 !important;
+}
+
+.bg-white {
+  background-color: transparent !important;
+  border-bottom: 0px !important;
+  border-bottom-style: none !important;
+  border-bottom-color: transparent !important;
+}
+
+.txt-darkText {
+  color: #45503B;
+}
+
+.txt-HPC {
+  top: 100px !important;
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
+  /* justify-content: center !important; */
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 200%;
+}
+
+.desc {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+.navbar {
+  /* flex-wrap: wrap; */
+  overflow: hidden !important;
+  position: fixed !important;
+  top: 0;
+  /* width: 100% !important; */
+  left: 20px;
+  right: 20px;
+  height: 80px;
+}
+
+.navHikaru {
+  font-size: 60% !important;
+}
+
+.navbar-brand {
+  font-style: italic !important;
+  style="font-family:georgia,garamond,serif;font-size:60px;font-style:italic;" !important;
+}
+
+.customNavContainer {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.navbar-rightside-elements {
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 100%;
+}
+
+.navbarSpaceAccomadation {
+  height: 100px;
+}
+
+.homePageContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  left: 20px;
+  right: 20px;
+  /* background-color: #DBD9DB; */
+  color: #747572;
+}
+
+.reviewPageContent {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  left: 200px;
+  right: 200px;
+  /* background-color: #DBD9DB; */
+  color: #747572;
+}
+
+.homePageContentElement {
+  margin: 20px;
+  align-content: center;
+  left: 40px !important;
+  right: 40px !important;
+  z-index: -5;
+}
+
+.homePageText {
+  width: 30% !important;
+  font-size: 120% !important;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img.profile {
+  /* width: 20% !important; */
+  border-radius: 40% !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+    /* 50% */
+  }
+}
+
+.rotateimg90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
